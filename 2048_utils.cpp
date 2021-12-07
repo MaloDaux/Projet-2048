@@ -1,6 +1,6 @@
 #include "2048_stuff.h"
 #include <iostream>
-#include <vector>
+
 using namespace std;
 
 int main()
