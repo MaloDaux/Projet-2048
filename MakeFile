@@ -1,0 +1,11 @@
+2048: 2048_stuff.o 2048_utils.o # Pour obtenir 2048 il faudra qu'avoir les *.o / pour obtenir les *.o il faut faire la commande ci-dessous
+	g++ 2048_stuff.o 2048_utils.o -o 2048 
+
+2048_stuff.o: 2048_stuff.cpp # Pour obtenir 2048_stuff.o il faudra qu'avoir le .cpp / pour obtenir le .cpp il faut faire la commande ci-dessous
+	g++ -c 2048_stuff.cpp
+
+2048_utils.o: 2048_utils.cpp # pour obtenir 2048_utils.o il faudra qu'avoir le .cpp / pour obtenir le .cpp il faut faire la commande ci-dessous
+	g++ -c 2048_utils.cpp
+
+clean:
+	rm *.o 2048
