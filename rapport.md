@@ -7,9 +7,9 @@
 
 ## Résumé du travail effectué
 
-- Niveau 0: réalisée, documentée, sauf 0.7 (on a pas réussi)
-- Niveau 1: réalisée, documentée, sauf le 1.4 (utilisation d'une variable globale)
-- Niveau 2: réalisée, documentée, sauf 2.2
+- Niveau 0: réalisée, documentée, testé, sauf 0.7 (on a pas réussi)
+- Niveau 1: réalisée, documentée, testé, sauf le 1.4 (utilisation d'une variable globale)
+- Niveau 2: réalisée, documentée, testé
 - Niveau 3: non traitée
 
 ## Démonstration
